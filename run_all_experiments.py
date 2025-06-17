@@ -21,7 +21,7 @@ from torch.utils.data import DataLoader
 from multiprocessing import Pool, cpu_count
 
 # LeNet 모델 불러오기
-spec_model = importlib.util.spec_from_file_location("model_lenet", "02_250610_model_lenet.py")
+spec_model = importlib.util.spec_from_file_location("model_lenet", "02_model_lenet.py")
 model_lenet = importlib.util.module_from_spec(spec_model)
 sys.modules["model_lenet"] = model_lenet
 spec_model.loader.exec_module(model_lenet)
