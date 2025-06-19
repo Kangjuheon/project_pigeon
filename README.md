@@ -7,9 +7,9 @@ This repository provides code and experimental setup for evaluating **neuron act
 We investigate the limitations of traditional neuron coverage metrics (e.g., SNAC) and propose confidence-thresholded variants that are sensitive to the underlying activation distribution of neurons. Experiments are conducted on MNIST using LeNet models under various adversarial training regimes (FGSM, CW, hybrid).
 
 # Report and Presantation files
-[View Final Report](./PIGEON Flying Beyond Strong Neuron Activation Coverage_v3.pdf.pdf)
+[View Final Report](./PIGEON Flying Beyond Strong Neuron Activation Coverage_v3.pdf)
 
-[Download Presentation Slides (PPTX)](./PPT_PIGEON Flying Beyond Strong Neuron Activation Coverage_Truthworthy AI_v2.pdf.pdf)
+[Download Presentation Slides (PPTX)](./PPT_PIGEON Flying Beyond Strong Neuron Activation Coverage_Truthworthy AI_v2.pdf)
 
 ## Repository Structure Overview
 
